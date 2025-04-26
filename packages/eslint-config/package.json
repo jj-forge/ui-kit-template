@@ -1,5 +1,5 @@
 {
-  "name": "@repo/eslint-config",
+  "name": "@ui-kit/eslint-config",
   "version": "0.0.0",
   "type": "module",
   "private": true,
