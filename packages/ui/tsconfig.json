@@ -3,8 +3,7 @@
   "compilerOptions": {
     "outDir": "dist",
     "paths": {
-      "@/lib/*": ["./lib/*"],
-      "@/styles/*": ["./styles/*"]
+      "@/lib/*": ["./lib/*"]
     }
   },
   "include": ["lib"],

@@ -4,10 +4,10 @@
   "type": "module",
   "private": true,
   "exports": {
-    "./*": "./src/*.tsx"
+    ".": "./lib/index.tsx"
   },
-  "main": "dist/main.js",
-  "types": "dist/main.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -15,7 +15,6 @@
     "lib": "lib"
   },
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
     "tsc": "tsc",
     "lint": "eslint . --max-warnings 0",
