@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "exports": {
-    ".": "./lib/index.tsx"
+    ".": "./dist/index.js"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,6 +16,7 @@
   },
   "scripts": {
     "build": "vite build",
+    "prepare": "vite build",
     "tsc": "tsc",
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component",

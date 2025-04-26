@@ -36,6 +36,9 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
     devDependencies:
+      '@tailwindcss/postcss':
+        specifier: ^4.1.4
+        version: 4.1.4
       '@types/node':
         specifier: ^22.14.0
         version: 22.14.0
@@ -54,43 +57,12 @@ importers:
       eslint:
         specifier: ^9.25.0
         version: 9.25.0(jiti@2.4.2)
-      typescript:
-        specifier: 5.8.2
-        version: 5.8.2
-
-  apps/web:
-    dependencies:
-      '@ui-kit/ui':
-        specifier: workspace:*
-        version: link:../../packages/ui
-      next:
-        specifier: ^15.3.0
-        version: 15.3.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      react:
-        specifier: ^19.1.0
-        version: 19.1.0
-      react-dom:
-        specifier: ^19.1.0
-        version: 19.1.0(react@19.1.0)
-    devDependencies:
-      '@types/node':
-        specifier: ^22.14.0
-        version: 22.14.0
-      '@types/react':
-        specifier: 19.1.0
-        version: 19.1.0
-      '@types/react-dom':
-        specifier: 19.1.1
-        version: 19.1.1(@types/react@19.1.0)
-      '@ui-kit/eslint-config':
-        specifier: workspace:*
-        version: link:../../packages/eslint-config
-      '@ui-kit/typescript-config':
-        specifier: workspace:*
-        version: link:../../packages/typescript-config
-      eslint:
-        specifier: ^9.25.0
-        version: 9.25.0(jiti@2.4.2)
+      postcss:
+        specifier: ^8.5.3
+        version: 8.5.3
+      tailwindcss:
+        specifier: ^4.1.4
+        version: 4.1.4
       typescript:
         specifier: 5.8.2
         version: 5.8.2
