@@ -1,65 +1,65 @@
 # @ui-kit/ui
 
-이 패키지는 모노레포 내에서 공통으로 사용하는 React UI 컴포넌트 라이브러리입니다.  
-Vite, TailwindCSS, Storybook, TypeScript 기반으로 개발되어, 다양한 프로젝트에서 일관된 UI와 재사용성을 제공합니다.
+This package is a shared React UI component library used within the monorepo.
+Developed with Vite, TailwindCSS, Storybook, and TypeScript, it provides consistent UI and reusability across various projects.
 
-## 주요 기술 스택
+## Main Tech Stack
 
-- **React**: UI 컴포넌트 개발
-- **Vite**: 번들러 및 개발 환경
-- **TailwindCSS**: CSS 프레임워크
-- **Storybook**: 컴포넌트 문서화 및 테스트
-- **TypeScript**: 정적 타입 지원
+- **React**: UI component development
+- **Vite**: Bundler and development environment
+- **TailwindCSS**: CSS framework
+- **Storybook**: Component documentation and testing
+- **TypeScript**: Static type support
 
-## 주요 기능
+## Main Features
 
-- 공통 UI 컴포넌트 제공 및 재사용
-- Storybook을 통한 컴포넌트 문서화 및 시각적 테스트
-- TailwindCSS 기반의 일관된 스타일링
-- TypeScript 기반의 안전한 컴포넌트 개발
+- Provides and reuses common UI components
+- Component documentation and visual testing with Storybook
+- Consistent styling based on TailwindCSS
+- Safe component development with TypeScript
 
-## 폴더 구조
+## Folder Structure
 
 ```plaintext
 packages/ui
-├── src           # 컴포넌트 소스 코드
-├── stories       # Storybook 스토리 파일
-├── dist          # 빌드 결과물
-├── index.ts      # 엔트리 포인트
-├── package.json  # 패키지 설정
+├── src           # Component source code
+├── stories       # Storybook story files
+├── dist          # Build output
+├── index.ts      # Entry point
+├── package.json  # Package configuration
 └── ...
 ```
 
-## 설치 및 사용법
+## Installation & Usage
 
-이 패키지는 모노레포 내 다른 앱(예: web, docs)에서 다음과 같이 import하여 사용할 수 있습니다.
+This package can be imported and used in other apps (e.g., web, docs) within the monorepo as follows:
 
 ```tsx
 import { Button } from '@ui-kit/ui';
 
 function App() {
-  return <Button>버튼</Button>;
+  return <Button>Button</Button>;
 }
 ```
 
-## 개발 및 빌드
+## Development & Build
 
-### 1. Storybook 실행
+### 1. Run Storybook
 
 ```sh
 pnpm dev
 ```
 
-### 2. Storybook 빌드
+### 2. Build Storybook
 
 ```sh
 pnpm build
 ```
 
-## 참고 자료
+## References
 
-- [React 공식 문서](https://react.dev/)
-- [Vite 공식 문서](https://vitejs.dev/)
-- [TailwindCSS 공식 문서](https://tailwindcss.com/docs)
-- [Storybook 공식 문서](https://storybook.js.org/docs/react/get-started/introduction)
-- [TypeScript 공식 문서](https://www.typescriptlang.org/) 
+- [React Official Docs](https://react.dev/)
+- [Vite Official Docs](https://vitejs.dev/)
+- [TailwindCSS Official Docs](https://tailwindcss.com/docs)
+- [Storybook Official Docs](https://storybook.js.org/docs/react/get-started/introduction)
+- [TypeScript Official Docs](https://www.typescriptlang.org/) 
