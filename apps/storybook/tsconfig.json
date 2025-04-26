@@ -1,0 +1,5 @@
+{
+  "extends": "@ui-kit/typescript-config/vite.json",
+  "compilerOptions": {},
+  "include": ["stories/**/*.ts", "stories/**/*.tsx"]
+}
