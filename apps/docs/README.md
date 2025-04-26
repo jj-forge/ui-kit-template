@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app).
+# Docs 앱 (웹 문서용)
 
-## Getting Started
+이 프로젝트는 모노레포 내에서 문서/가이드 사이트를 제공하는 Next.js 기반 웹 문서(Docs) 앱입니다.
 
-First, run the development server:
+## 주요 목적
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+- 서비스/컴포넌트/디자인 시스템에 대한 문서 및 가이드 제공
+
+## 실행 방법
+
+```sh
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+실행 후 [http://localhost:3000](http://localhost:3000)에서 확인할 수 있습니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 주요 파일
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load Inter, a custom Google Font.
+- `app/page.tsx`: 메인 페이지
+- `README.md`: 프로젝트 안내 (본 파일)
 
-## Learn More
+## 참고 자료
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js 공식 문서](https://nextjs.org/docs)

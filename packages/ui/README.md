@@ -1,7 +1,13 @@
 # @ui-kit/ui
 
-이 패키지는 모노레포 내에서 공통으로 사용하는 React UI 컴포넌트 라이브러리입니다.  
-Vite, TailwindCSS, Storybook, TypeScript 기반으로 개발되어, 다양한 프로젝트에서 일관된 UI와 재사용성을 제공합니다.
+이 패키지는 모노레포 내 여러 프로젝트에서 공통으로 사용하는 React 기반 공용 UI 컴포넌트 라이브러리입니다.  
+일관된 디자인 시스템과 재사용 가능한 컴포넌트 제공을 목표로 하며, Vite, TailwindCSS, Storybook, TypeScript 등 최신 프론트엔드 스택을 활용합니다.
+
+## 주요 목적
+
+- 다양한 프로젝트에서 일관된 UI/UX 제공
+- 재사용 가능한 컴포넌트 개발 및 배포
+- 디자인 시스템의 효율적 관리
 
 ## 주요 기술 스택
 
@@ -30,7 +36,7 @@ packages/ui
 └── ...
 ```
 
-## 설치 및 사용법
+## 사용법
 
 이 패키지는 모노레포 내 다른 앱(예: web, docs)에서 다음과 같이 import하여 사용할 수 있습니다.
 
@@ -44,13 +50,7 @@ function App() {
 
 ## 개발 및 빌드
 
-### 1. Storybook 실행
-
-```sh
-pnpm dev
-```
-
-### 2. Storybook 빌드
+### 1. 빌드
 
 ```sh
 pnpm build
