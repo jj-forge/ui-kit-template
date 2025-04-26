@@ -10,6 +10,9 @@
     "lint": {
       "dependsOn": ["^lint"]
     },
+    "tsc": {
+      "dependsOn": ["^tsc"]
+    },
     "check-types": {
       "dependsOn": ["^check-types"]
     },

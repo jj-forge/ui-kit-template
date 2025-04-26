@@ -13,6 +13,9 @@
     "turbo": "^2.5.2",
     "typescript": "5.8.2"
   },
+  "resolutions": {
+    "glob": "^11.0.2"
+  },
   "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=18"

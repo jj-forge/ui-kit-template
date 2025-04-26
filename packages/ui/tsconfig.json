@@ -1,8 +1,12 @@
 {
   "extends": "@ui-kit/typescript-config/react-library.json",
   "compilerOptions": {
-    "outDir": "dist"
+    "outDir": "dist",
+    "paths": {
+      "@/lib/*": ["./lib/*"],
+      "@/styles/*": ["./styles/*"]
+    }
   },
-  "include": ["src"],
+  "include": ["lib"],
   "exclude": ["node_modules", "dist"]
 }
