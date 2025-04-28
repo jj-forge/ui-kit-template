@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+:root {
+  @apply bg-neutral-100;
+}
+
+.dark {
+  @apply bg-neutral-900;
+}
