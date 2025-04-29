@@ -1,4 +1,4 @@
-import { Button } from "@ui-kit/ui";
+import { Button } from "@ui-kit/ui/components";
 
 export default function Home() {
   return (
