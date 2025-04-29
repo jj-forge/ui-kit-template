@@ -1,9 +1,10 @@
+@import "@ui-kit/ui/styles.css";
 @import "tailwindcss";
 
 :root {
-  @apply bg-neutral-100;
+  @apply bg-neutral-400;
 }
 
 .dark {
-  @apply bg-neutral-900;
+  @apply bg-neutral-600;
 }

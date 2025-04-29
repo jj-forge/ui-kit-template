@@ -1,3 +1,2 @@
-import "../styles/global.css";
-
-export * from "./components";
+export * as components from "./components";
+export * as utils from "./utils";

@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "@ui-kit/ui/utils";
 import { ButtonHTMLAttributes } from "react";
 
 export function Button({

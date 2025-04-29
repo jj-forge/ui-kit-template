@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
 @import "tailwindcss";
 
+@source "../lib/";
+
 @custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  @apply bg-neutral-100;
+}
+
+.dark {
+  @apply bg-neutral-900;
+}
+
+@theme {
+  --default-font-family: "Noto Sans KR", sans-serif;
+}

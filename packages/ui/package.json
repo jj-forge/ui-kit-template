@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "exports": {
-    ".": "./dist/index.js"
+    "./components": "./lib/components/index.tsx",
+    "./utils": "./lib/utils/index.ts",
+    "./styles.css": "./styles/global.css"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,7 +19,7 @@
   "scripts": {
     "build": "vite build",
     "prepare": "vite build",
-    "tsc": "tsc",
+    "tsc": "tsc --watch",
     "lint": "eslint . --max-warnings 0"
   },
   "peerDependencies": {
