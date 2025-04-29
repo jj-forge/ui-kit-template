@@ -7,7 +7,13 @@ export function Button({
   ...props
 }: ButtonHTMLAttributes<HTMLButtonElement>) {
   return (
-    <button className={cn("bg-red-500", className)} {...props}>
+    <button
+      className={cn(
+        "bg-red-700 text-red-100 dark:bg-red-300 dark:text-red-900",
+        className
+      )}
+      {...props}
+    >
       {children}
     </button>
   );

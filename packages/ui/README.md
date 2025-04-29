@@ -41,7 +41,7 @@ packages/ui
 This package can be imported and used in other apps (e.g., web, docs) within the monorepo as follows:
 
 ```tsx
-import { Button } from '@ui-kit/ui';
+import { Button } from "@ui-kit/ui";
 
 function App() {
   return <Button>Button</Button>;
@@ -62,4 +62,4 @@ pnpm build
 - [Vite Official Docs](https://vitejs.dev/)
 - [TailwindCSS Official Docs](https://tailwindcss.com/docs)
 - [Storybook Official Docs](https://storybook.js.org/docs/react/get-started/introduction)
-- [TypeScript Official Docs](https://www.typescriptlang.org/) 
+- [TypeScript Official Docs](https://www.typescriptlang.org/)
